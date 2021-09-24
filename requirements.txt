@@ -1,0 +1,3 @@
+discord
+boto
+python-dotenv
