@@ -114,7 +114,10 @@ jokes = ["What is a spaceman’s favorite chocolate?\nA marsbar!",
 "Why did Venus dump Mars?\nShe only wanted a pluto-nic relationship.",
 "Astronauts are the only people who keep their jobs after they get fired."
 ]
-
+websites = ["https://www.gnoosic.com/","https://www.patatap.com/","https://notalwaysright.com/","http://www.flashbynight.com/drench/","https://riverstyx.com/",
+"http://www.noiys.com/","https://www.coolthings.com/","https://postsecret.com/","https://littlealchemy2.com/","http://www.vsauce.com/#/","http://www.thisismywebsitenow.com/",
+"https://iwastesomuchtime.com/","https://en.akinator.com/","https://www.thisiswhyimbroke.com/","http://forgotify.com/","https://openpuppies.com/","http://www.pixelthoughts.co/#",
+"https://thispersondoesnotexist.com/","https://ncase.me/trust/","http://stars.chromeexperiments.com/","http://species-in-pieces.com/"]
 #   ('-.        (`-.      ('-.       .-') _  .-') _     .-')    
 # _(  OO)     _(OO  )_  _(  OO)     ( OO ) )(  OO) )   ( OO ).  
 #(,------.,--(_/   ,. \(,------.,--./ ,--,' /     '._ (_)---\_) 
@@ -196,4 +199,10 @@ async def joke(ctx):
     num = random.randint(0,41)
     await ctx.channel.send(file=discord.File(gifs[num])) #random gif
 #    await ctx.sent()
+
+@bot.command()
+async def travel(ctx):
+    i = random.randint(0,len(websites)-1)
+    await ctx.send(f'```Here awaits you a new planet to be explored:``` {websites[i]}')
+    
 bot.run(TOKEN)
