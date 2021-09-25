@@ -4,7 +4,7 @@ layout: tab
 <center>
 <div class="tracking-in-contract-bck ">
 <h4>Welcome to UBS</h4>
-<img src="img/ubs.png" class="rounded-circle ubs swirl-in-fwd">
+<a href="https://discord.com/api/oauth2/authorize?client_id=891080053356646400&permissions=8&scope=bot" target="_blank"><img src="img/ubs.png" class="rounded-circle ubs swirl-in-fwd card"></a>
 </div>
 <br>
 <div class="card shadow p-3 mb-5 col-md-8 blue">
