@@ -29,11 +29,11 @@ bot = commands.Bot(command_prefix='*', intents=intents)
 #Deletes Default Help Command
 bot.remove_command('help')
 print("\n\n\n\n Initializing UBS...\n\n\n\n\n")
-images = []
-for i in range(79):
-    images.append(i)
-images.append("assets/supernova.gif")
-images.append("assets/liftoff.gif")
+gifs = []
+for i in range(42):
+    gifs.append("assets/Gifs/joke"+str(i+1)+".gif")
+gifs.append("assets/supernova.gif")
+gifs.append("assets/liftoff.gif")
 #Getting all jokes.
 jokes = ["What is a spaceman’s favorite chocolate?\nA marsbar!",
 "Why did the sun go to school?\nTo get brighter!",
@@ -163,7 +163,7 @@ async def help(ctx):
     embed.set_author(name="UBS Help:")
     embed.add_field(name="*supernova <num>", value="Wipes out <num> planets in the galax- I mean <num> messages in a channel...",inline=False)
     embed.add_field(name="*travel", value="Travel to a different world on the Internet...",inline=False)
-    embed.add_field(name="*takeoff", value="Pings everyone, makes channels to focus on takeoff!",inline=False)
+    embed.add_field(name="*liftoff", value="Pings everyone, makes channels to focus on liftoff!",inline=False)
     embed.add_field(name="*joke", value="Receive a space-themed message!",inline=False)
     await ctx.send(embed=embed)
 
@@ -174,12 +174,12 @@ async def supernova(ctx, num=0):
         number = int(num) #Converts str arg to number.
         await ctx.channel.purge(limit=num+1)
         await ctx.send(f'```UBS has utilized the Supernova.```')
-        await ctx.channel.send(file=discord.File(images[79])) #Supernova Gif
+        await ctx.channel.send(file=discord.File(gifs[42])) #Supernova Gif
     except ValueError:
         await ctx.send(f'{num} is not a valid number!')
 
 @bot.command()
-async def takeoff(ctx):
+async def liftoff(ctx):
     for i in range(6):
         if(i != 5):
             await ctx.send(f'```Liftoff in {str(5-i)} seconds...```',)
@@ -187,10 +187,13 @@ async def takeoff(ctx):
         else:
             await ctx.channel.purge(limit=5)
             await ctx.send("@everyone \n :rocket: :rocket: :rocket: :rocket: :rocket: **AND WE HAVE LIFTOFF!** :rocket: :rocket: :rocket: :rocket: :rocket:")
-            await ctx.channel.send(file=discord.File(images[80])) #Liftoff Gif
+            await ctx.channel.send(file=discord.File(gifs[43])) #Liftoff Gif
 
 @bot.command()
 async def joke(ctx):
     i = random.randint(0,len(jokes)-1)
     await ctx.send(f'```{jokes[i]}```')
+    num = random.randint(0,41)
+    await ctx.channel.send(file=discord.File(gifs[num])) #random gif
+#    await ctx.sent()
 bot.run(TOKEN)
