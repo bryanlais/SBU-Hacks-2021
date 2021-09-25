@@ -2,32 +2,38 @@
 layout: tab
 ---
 <center>
-<div class="card shadow p-3 mb-5 col-md-8 black">
-<h4><img src="img/web.gif" class="face rounded-circle" hspace="20"> Hi, Welcome to UBS.</h4>
+<div class="tracking-in-contract-bck ">
+<h4>Welcome to UBS</h4>
 </div>
+<div class="card shadow p-3 mb-5 col-md-8 blue scale-in-ver-center">
+<h3> What is this? </h3>
+</div>
+<h2> UniversalBotService is a Discord Bot that brings space to you. </h2>
+<br>
 
-<div class="row">
-<div class="card shadow p-3 mb-5 col-md-3 black" style="margin-left: 50px;">
+<div class="card shadow p-3 mb-5 col-md-8 blue scale-in-ver-center">
+<h3> What can we do? </h3>
+</div>
+<h2> With a multitude of different commands related to space, this bot will </h2> 
+<h2>take you on a journey while at the comfort of your home! </h2>
+<br>
+
+<div class="card shadow p-3 mb-5 col-md-8 blue scale-in-ver-center">
+<h3> Why was this made? </h3>
+</div>
+<h2> This </h2>
+<br>
+
+<center>
+<div class="card shadow p-3 mb-5 col-md-6 blue" style="margin-left: 50px;">
 <br>
 <div class="card-title">
-Title 1
+Contact Info<br>
+<a href="https://github.com/bryanlais/SBU-Hacks-2021" target="_blank"><img src="img/github.png" class="media rounded-circle"></a>
 </div>
 <div class="card-body">
-</div>
-</div>
-<div class="card shadow p-3 mb-5 col-md-4 black" style="margin-left: 40px;">
+Check out our source code by clicking on the icon!
 <br>
-<div class="card-title">
-Title 2
-</div>
-<div class="card-body">
-</div>
-</div>
-<div class="card shadow p-3 mb-5 col-md-3 black" style="margin-left: 40px;">
-<div class="card-title">
-Title 3
-</div>
-<div class="card-body">
-</div>
 </div> 
+</div>
 </center>

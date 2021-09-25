@@ -1,0 +1,31 @@
+I"«<center>
+<div class="card shadow p-3 mb-5 col-md-8 blue">
+<h4><img src="img/ubs.png" class="face rounded-circle" hspace="20" /> Welcome to UBS.</h4>
+</div>
+
+<div class="row">
+<div class="card shadow p-3 mb-5 col-md-3 blue swirl-out-bck " style="margin-left: 50px;">
+<br />
+<div class="card-title">
+Title 1
+</div>
+<div class="card-body">
+</div>
+</div>
+<div class="card shadow p-3 mb-5 col-md-4 blue" style="margin-left: 40px;">
+<br />
+<div class="card-title">
+Title 2
+</div>
+<div class="card-body">
+</div>
+</div>
+<div class="card shadow p-3 mb-5 col-md-3 blue" style="margin-left: 40px;">
+<div class="card-title">
+Title 3
+</div>
+<div class="card-body">
+</div>
+</div> 
+</div></center>
+:ET

@@ -7,6 +7,37 @@
         font-family: "Comfortaa";
 }
 
+@-webkit-keyframes tracking-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(400px);transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(400px);transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+@-webkit-keyframes scale-in-ver-center {
+        0% {
+          -webkit-transform: scaleY(0);
+                  transform: scaleY(0);
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: scaleY(1);
+                  transform: scaleY(1);
+          opacity: 1;
+        }
+      }
+      @keyframes scale-in-ver-center {
+        0% {
+          -webkit-transform: scaleY(0);
+                  transform: scaleY(0);
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: scaleY(1);
+                  transform: scaleY(1);
+          opacity: 1;
+        }
+      }
+.tracking-in-contract-bck{-webkit-animation:tracking-in-contract-bck 1s cubic-bezier(.215,.61,.355,1.000) both;
+        animation:tracking-in-contract-bck 3s cubic-bezier(.215,.61,.355,1.000) both}
+.scale-in-ver-center {
+	-webkit-animation: scale-in-ver-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-ver-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 .face {
         width: 175px;
 }
@@ -19,12 +50,9 @@
             -webkit-transform: scale(1.1); /* Safari 3-8 */
               transform: scale(1.1); 
       }
-.flowers {
-        width: 100%;
-        height: 100%;
-        padding:0;
-        margin:0;
-        background-image: url(../img/flowers.gif);
+.galaxy {
+        overflow-x: hidden;
+        background-color: #445094;
         background-size: cover;
         background-repeat: no-repeat;
 }
@@ -32,13 +60,13 @@
         background-color: #F1E6E6;
 }
 p {
-        font-family: "Comfortaa";
+        font-family: "Adam";
 }
 html {
         height: 100%;
 }
 body{
-        background-color: #262626;
+        background-color: #445094;
 }
 .nd {
         font-size: 15px;
@@ -54,6 +82,10 @@ body{
 }
 .black {
         background-color: #262626;
+}
+.blue {
+  background-color: #24346c;
+        
 }
 .card-title {
         font-size: 30px;
@@ -71,27 +103,29 @@ h1{
         color: #262626;
 }
 h2{
-        font-family: "Comfortaa";
-        font-size: 50px;
-        color: #262626;
+        font-family: "Adam";
+        font-size: 40px;
+        color: white;
         text-align: center;
 }
 h3{
-        font-family: "Comfortaa";
-        font-size: 30px;
-        color: #262626;
+        font-family: "Adam";
+        font-weight: bold;
+        font-size: 60px;
+        color: white;
         text-align: center;
 }
 h4 {
-        font-family: "Comfortaa";
-        font-size: 50px;
+        font-family: "Adam";
+        font-weight: bold;
+        font-size: 130px;
         color: white;
 }
 a {
         text-decoration: none;
 }
 .bar{
-        background-color: #262626;
+        background-color: #313e58;
         overflow: hidden;
         font-family: Adam;
         font-weight: bold;
@@ -108,8 +142,8 @@ a {
 }
 .bar a:hover {
         transition: background-color 0.5s ease; color 0.5s ease;
-        background-color: white;
-        color: #262626;
+        background-color: #5965a4;
+        color: white;   
 }
 .bar .icon {
         display: none;
