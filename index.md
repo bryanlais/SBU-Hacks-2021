@@ -24,8 +24,12 @@ layout: tab
 <div class="card shadow p-3 mb-5 col-md-8 blue">
 <h3> Can I see some examples? </h3>
 </div>
-<h2> Sure, take a look at the video below! </h2>
+<h2> Sure, check out the video below! </h2>
 <br>
+<div class="p-3 mb-5 col-md-8">
+<iframe width="1010" height="560" src="https://www.youtube.com/embed/i_9BrbmY-2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</div>
+<br><br><br>
 
 <div class="card shadow p-3 mb-5 col-md-8 blue">
 <h3> When was this made? </h3>
