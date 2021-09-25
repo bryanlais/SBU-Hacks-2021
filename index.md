@@ -7,6 +7,7 @@ layout: tab
 <a href="https://discord.com/api/oauth2/authorize?client_id=891080053356646400&permissions=8&scope=bot" target="_blank"><img src="img/ubs.png" class="rounded-circle ubs swirl-in-fwd card"></a>
 </div>
 <br>
+<h2>Click the UBS logo to invite our bot to your server!</h2>
 <div class="card shadow p-3 mb-5 col-md-8 blue">
 <h3> What is this? </h3>
 </div>
