@@ -6,7 +6,7 @@
 @font-face {
         font-family: "Comfortaa";
 }
-
+@-webkit-keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}@keyframes swirl-in-fwd{0%{-webkit-transform:rotate(-540deg) scale(0);transform:rotate(-540deg) scale(0);opacity:0}100%{-webkit-transform:rotate(0) scale(1);transform:rotate(0) scale(1);opacity:1}}
 @-webkit-keyframes tracking-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(400px);transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-contract-bck{0%{letter-spacing:1em;-webkit-transform:translateZ(400px);transform:translateZ(400px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
 @-webkit-keyframes scale-in-ver-center {
         0% {
@@ -38,13 +38,22 @@
 	-webkit-animation: scale-in-ver-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: scale-in-ver-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+.swirl-in-fwd{-webkit-animation:swirl-in-fwd .6s ease-out both;animation:swirl-in-fwd .6s ease-out both}
+.swirl-in-fwd:hover{-webkit-animation:swirl-in-fwd .6s ease-out both;animation:swirl-in-fwd .6s ease-out both}
+
 .face {
         width: 175px;
+}
+
+.ubs {
+        width: 300px;
 }
 
 .card {
         transition: transform .3s;
 }
+
 .card:hover {
           -ms-transform: scale(1.1); /* IE 9 */
             -webkit-transform: scale(1.1); /* Safari 3-8 */
