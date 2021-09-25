@@ -84,7 +84,7 @@ async def help(ctx):
     await ctx.send(embed=embed)
 
 @bot.command()
-async def supernova(ctx, num=1):
+async def supernova(ctx, num=0):
     msgs = [] #
     try:
         number = int(num) #Converts str arg to number.
