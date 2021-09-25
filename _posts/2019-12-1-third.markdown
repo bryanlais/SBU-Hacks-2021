@@ -1,0 +1,7 @@
+---
+title: School 
+number: 3
+image: ../img/web.gif
+---
+Back to school again. There's nothing much to say other than the fact that I have robotics once again. More web duties = More work for me. I might not blog a bit after this since I'm focusing on different implementations for Team Manager and other web projects. Hope to see you soon!
+

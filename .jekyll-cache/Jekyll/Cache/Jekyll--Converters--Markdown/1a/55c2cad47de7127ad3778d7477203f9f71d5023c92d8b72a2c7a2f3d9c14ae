@@ -1,0 +1,30 @@
+I"¨<center>
+<div class="card shadow p-3 mb-5 col-md-8 black">
+<h4><img src="img/me.jpg" class="face rounded-circle" hspace="20" /> Hi, Welcome to UBS</h4>
+</div>
+
+<div class="row">
+<div class="card shadow p-3 mb-5 col-md-3 black" style="margin-left: 50px;">
+<br />
+<div class="card-title">
+About The App
+</div>
+<div class="card-body">
+</div>
+</div>
+<div class="card shadow p-3 mb-5 col-md-4 black" style="margin-left: 40px;">
+<br />
+<div class="card-title">
+</div>
+<div class="card-body">
+</div>
+</div>
+<div class="card shadow p-3 mb-5 col-md-3 black" style="margin-left: 40px;">
+<div class="card-title">
+</div>
+<div class="card-body">
+</div>
+</div> 
+&lt;/center&gt;
+</div></center>
+:ET

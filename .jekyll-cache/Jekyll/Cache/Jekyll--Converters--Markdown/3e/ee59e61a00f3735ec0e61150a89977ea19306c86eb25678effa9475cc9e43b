@@ -1,0 +1,27 @@
+I"ç<center>
+<div class="card shadow p-3 mb-5 col-md-8 black">
+<h4><img src="img/me.jpg" class="face rounded-circle" hspace="20" /> Hi, I'm Bryan.</h4>
+</div>
+</center>
+
+<div class="row">
+<div class="card shadow p-3 mb-5 col-md-3 black" style="margin-left: 50px;">
+<br />
+<div class="card-title">
+About Me
+</div>
+<div class="card-body">
+</div>
+<div class="card shadow p-3 mb-5 col-md-4 black" style="margin-left: 40px;">
+<br />
+<div class="card-title">
+</div>
+<div class="card-body">
+<div class="card shadow p-3 mb-5 col-md-3 black" style="margin-left: 40px;">
+<div class="card-title">
+</div>
+<div class="card-body">
+</div>
+</div> 
+</div></div></div></div>
+:ET

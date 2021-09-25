@@ -1,0 +1,7 @@
+---
+title: Beginning
+number: 1
+image: ../img/beginning.gif
+---
+It's Thanksgiving Break and I finally decided to work on projects I had pushed aside. One of the most important ones being a portfolio website, to display my skills in web development. Although I have studied Java, Python and a multitude of other languages, I wanted to delve deeper into web development. Instead of using Rails or Javascript, I'm utilizing Jekyll to make blog writing easier. Hope this goes well! =)
+
